@@ -20,9 +20,9 @@ Prerequisite
 ---------------------------------------------
 * Eclipse 2021-12
 * Virtual Box 6.0
-* Docker 
-* Xtext
-* Xtend
+* Docker 20.10.?
+* Xtext 2.25.0 (https://www.eclipse.org/Xtext/)
+* Xtend 2.25.0 (https://www.eclipse.org/Xtend/)
 * Ubuntu 20.04 disc image (https://ubuntu.com/download/desktop)
 
 
