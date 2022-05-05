@@ -13,7 +13,8 @@ add license here
 Content Description
 ----------------------------------------------
 Folders:
-* ```Code```: contains the code of IoTECS and the files we need to run the simulations.
+* ```IoTECS```: contains the code of IoTECS and the files we need to build the DSL.
+* ```Demonstration```: contains the demonstration project of how to use the IoTECS DSL.
 * ```Analyzation```: contains the scripts to analyse the results of the simulations.
 * ```Results```: contains two subfolders: ```RQ1``` and ```RQ2```. These folders contain the results of each research question.
 
