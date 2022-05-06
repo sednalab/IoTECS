@@ -26,8 +26,15 @@ Prerequisite
 * Xtext 2.25.0 (https://www.eclipse.org/Xtext/)
 * Xtend 2.25.0 (https://www.eclipse.org/Xtend/)
 * Ubuntu 20.04 disc image (https://ubuntu.com/download/desktop)
+* TShark (Wireshark) 3.4.9
+* Python 3.8.8
 
 
 Installation Instructions
 --------------------------------------------
 The following steps show how to use IoTECS to generate code for performing simulation-based testing for IoT Cloud applications.
+1. Run the DLS... and open...
+2. Create linux-based (Ubuntu 20.04) virtual machines for each platform whose type is "VM".
+3. install python on the local machine and  all remote platforms
+4. Create a IoTECS project and input the ...
+5. Go to the generated directory of the IoTECS project (src-gen/) and run main.sh.
