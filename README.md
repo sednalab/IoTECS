@@ -8,13 +8,13 @@ IoTECS (IoT Edge-to-Cloud Simulation) is an Domain Specific Language (DSL) for S
 
 License 
 --------------------------------------------
-add license here
+GPL 2.0+
 
 Content Description
 ----------------------------------------------
 Folders:
-* ```IoTECS```: contains the code of IoTECS and the files we need to build the DSL.
-* ```Demonstration```: contains the demonstration project of how to use the IoTECS DSL.
+* ```IoTECS```: contains the code of IoTECS DSL and the files we need to build the DSL.
+* ```Demonstration```: contains the demonstration IoTECS project.
 * ```Analyzation```: contains the scripts to analyse the results of the simulations.
 * ```Results```: contains two subfolders: ```RQ1``` and ```RQ2```. These folders contain the results of each research question.
 
@@ -33,8 +33,8 @@ Prerequisite
 Installation Instructions
 --------------------------------------------
 The following steps show how to use IoTECS to generate code for performing simulation-based testing for IoT Cloud applications.
-1. Run the DLS... and open...
+1. Run the DLS project (iotecs) as Eclipse Applications and launch runtime Eclipse.
 2. Create linux-based (Ubuntu 20.04) virtual machines for each platform whose type is "VM".
-3. install python on the local machine and  all remote platforms
-4. Create a IoTECS project and input the ...
-5. Go to the generated directory of the IoTECS project (src-gen/) and run main.sh.
+3. Install python on the local machine and all remote platforms
+4. Create a IoTECS project on the runtime Eclipse Platform and new a file with a suffix of "iot". Input the specific domain model based on the syntax in this file.
+6. Go to the generated directory of the IoTECS project (src-gen/) and run main.sh.
