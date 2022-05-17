@@ -39,6 +39,6 @@ The following steps show how to use IoTECS to generate code for performing simul
 5. Run the DLS project (iotecs) as Eclipse Applications and launch runtime Eclipse.
 6. Create linux-based (Ubuntu 20.04) virtual machines for each platform whose type is "VM".
 7. Install python and tshark on the local machine and all remote platforms.
-8. Create a java project on the runtime Eclipse Platform and new a file with a suffix of "iot" (i.e., test.iot). Choose "yes" when a window called "Congifure Xtext" popped out asking "Do you want to convert 'test' to an Xtext project?". Input the specific instance of conceptual model for IoTECS according to the grammar. Or use the demonstration IoTECS project provided in Demonstration.
-9. Save the file in step 8 and the code and scripts are generated in a directory called "src-gen" of the project in step 8 (i.e., test->src-gen).
+8. Create a java project on the runtime Eclipse Platform and new a file with a suffix of "iot" (e.g., test.iot). Choose "yes" when a window called "Congifure Xtext" popped out asking "Do you want to convert 'test' to an Xtext project?". Input the specific instance of conceptual model for IoTECS according to the grammar. Or use the demonstration IoTECS project provided in Demonstration.
+9. Save the file in step 8 and the code and scripts are generated in a directory called "src-gen" of the project in step 8 (e.g., test->src-gen).
 10. Go to the generated directory of the IoTECS project (src-gen/) and run main.sh.
