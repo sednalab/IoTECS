@@ -8,7 +8,7 @@ IoTECS (IoT Edge-to-Cloud Simulation) is an Domain Specific Language (DSL) for S
 
 The concepts in the above conceptual model are arranged under two packages:
 * ```Edge Layer```: contains simulation time management, Simulation Architecture Management and Simulated Devices.
-* ```Cloud Layer```: contains cloud applications under stress testing. The information required by IoTECS about these clouds are their IP addresses and port numbers. IoTECS can help create a baseline cloud application which simply receives packets sending from edge devices and sends them back. Name of the network adapter is required because wireshark will be working to capture the detailed information coming in and out the network adapter.
+* ```Cloud Layer```: contains cloud applications under stress testing. The information required by IoTECS about these clouds are their IP addresses and port numbers. IoTECS can help to create a baseline cloud application which simply receives packets sending from edge devices and sends them back. Name of the network adapter is required because wireshark will be working to capture the packets coming in and out the network adapter.
 
 License 
 --------------------------------------------
