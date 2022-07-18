@@ -25,6 +25,7 @@ Folders:
 Prerequisite
 ---------------------------------------------
 * Eclipse 2021-12
+* JDK 11
 * Virtual Box 6.1
 * Docker 20.10.11
 * Xtext 2.25.0 (https://www.eclipse.org/Xtext/)
@@ -32,7 +33,7 @@ Prerequisite
 * Ubuntu 20.04 disc image (https://ubuntu.com/download/desktop)
 * TShark (Wireshark) 3.4.9
 * Python 3.8.8
-
+* ssh
 
 Installation Instructions
 --------------------------------------------
@@ -40,9 +41,10 @@ The following steps show how to use IoTECS to generate code for performing simul
 1. Open all the five projects in IoTECS.zip in Eclipse. 
 2. Go to iotecs->src->iotecs->IoTECS.xtext, run as generate Xtext artifacts. 
 3. Go to iotecs->src->iotecs->GenerateIoTECS.mwe2, run as MWE2 workflow.
-5. Run the DLS project (iotecs) as Eclipse Applications and launch runtime Eclipse.
+5. Run the DLS project (iotecs) as Eclipse Applications and choose launch runtime Eclipse.
 6. Create linux-based (Ubuntu 20.04) virtual machines for each platform whose type is "VM".
-7. Install python and tshark on the local machine and all remote platforms.
-8. Create a java project on the runtime Eclipse Platform and new a file with a suffix of "iot" (e.g., test.iot). Choose "yes" when a window called "Congifure Xtext" popped out asking "Do you want to convert 'test' to an Xtext project?". Input the specific instance of conceptual model for IoTECS according to the grammar. Or use the demonstration IoTECS project provided in Demonstration.
+7. Install python, jdk and tshark on the local machine and all remote platforms.
+8. Create a java project on the runtime Eclipse Platform and new a file with a suffix of "iot" (e.g., test.iot). Choose "yes" when a window called "Congifure Xtext" popped out asking "Do you want to convert 'test' to an Xtext project?". Input the specific instance of conceptual model for IoTECS according to the grammar. Or use the demonstration IoTECS project provided in Demonstration and modify it according to the instance of the conceptual model.
 9. Save the file in step 8 and the code and scripts are generated in a directory called "src-gen" of the project in step 8 (e.g., test->src-gen).
+10. install openssh and make sure localhost, Platforms, SimulationNodes can communicate with each other using ssh and scp. 
 10. Go to the generated directory of the IoTECS project (src-gen/) and run main.sh.
