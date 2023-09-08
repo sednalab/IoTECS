@@ -1,6 +1,6 @@
-# IoTECS -- A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions
+# IoTECS -- A Lean Simulator for Stress Testing of Cloud-Native IoT Systems: A Domain Specific Language and Industrial Case Studies
 
-This repository hosts the `A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions` paper. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
+This repository hosts the `A Lean Simulator for Stress Testing of Cloud-Native IoT Systems: A Domain Specific Language and Industrial Case Studies` paper. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
 
 The repository contains the complete `IoTECS` DSL codebase, including user interface files, testing scripts, and configuration files. It also includes the results of various experiments conducted as part of the project, stored in the `results` directory.
 
@@ -11,23 +11,23 @@ Additionally, the repository contains configuration files related to `JMeter` an
 
 ## Abstract
 
-The Internet of Things (IoT) is increasingly prevalent in domains such as emergency response, smart cities and autonomous vehicles. Simulation plays a key role in the testing of IoT systems, noting that field testing of a complete IoT product may be infeasible or prohibitively expensive. In this paper, we propose a \emph{domain-specific language (DSL)} for generating edge-to-cloud simulators. An edge-to-cloud simulator executes the functionality of a large array of edge devices that communicate with cloud applications. Our DSL, named IoTECS, is the result of a collaborative project with an IoT analytics company, Cheetah Networks. 
-The industrial use case that motivates IoTECS is ensuring the scalability of cloud applications by putting them under extreme loads from IoT devices connected to the edge. We implement IoTECS using Xtext and empirically evaluate its usefulness. We further reflect on the lessons learned.
+The Internet of Things (IoT) connects a plethora of smart devices globally across various applications like smart cities, autonomous vehicles, and health monitoring. Simulation plays a key role in the testing of IoT systems, noting that field testing of a complete IoT product may be infeasible or prohibitively expensive. 
+This paper addresses a specific yet important need in simulation-based testing of IoT systems: Stress testing of cloud-native applications that are increasingly employed in the IoT domain. Existing IoT stress testing solutions demand significant computational resources, making them ill-suited and costly. We propose a lean, edge-to-cloud simulation framework designed for cloud stress testing, enabling efficient simulation of a large array of edge devices that communicate with cloud applications. To facilitate the construction of our simulator for practitioners, we develop a domain-specific language (DSL), named `IoTECS`, for generating edge-to-cloud simulators. We provide the syntax and semantics of IoTECS and implement IoTECS using Xtext. We evaluate the applicability and usefulness of simulators generated from IoTECS specifications for stress testing of two real-world systems including  an industrial, cloud-native IoT connected vehicle system and a benchmark cloud system. Our results show that simulators generated based on IoTECS exhibit their best performance and can successfully  determine the service capacity of our case study systems when they use containerization through dockers. Further, these simulators can simulate 3.5 times more IoT and edge devices compared to industrial stress-testing baseline tools, JMeter and Locust. Finally, we reflect on the lessons learned based on our industrial collaboration.
 
 ## Directory Structure
 
 ```bash
 ├── baselines
 │   ├── JMeter
-│       ├── Stores files for the JMeter stress testing simulation.
+│       ├── Stores files for stress testing using JMeter.
 │   ├── Locust
-│       ├── Stores files for the Locust stress testing simulation.
+│       ├── Stores files for stress testing using Locust.
 ├── IoTECS
 │   ├── This is the core directory for the IoTECS simulator.
 ├── figs
 │   ├── This directory stores images used in the study.
 ├── results
-│   ├── Contains results for research question 1, 2, 3 and 4.
+│   ├── This directory contains results for research question 1, 2, 3 and 4.
 └──
 
 
