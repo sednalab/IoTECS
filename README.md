@@ -1,4 +1,4 @@
-# IoTECS -- A Lean Simulator for Stress Testing of Cloud-Native IoT Systems: A Domain Specific Language and Industrial Case Studies
+# A Lean Simulator for Stress Testing of Cloud-Native IoT Systems: A Domain Specific Language and Industrial Case Studies
 
 This repository hosts the `A Lean Simulator for Stress Testing of Cloud-Native IoT Systems: A Domain Specific Language and Industrial Case Studies` paper. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
 
@@ -19,9 +19,9 @@ This paper addresses a specific yet important need in simulation-based testing o
 ```bash
 ├── baselines
 │   ├── JMeter
-│       ├── Stores files for stress testing using JMeter.
+│       ├── This directory stores files for stress testing using JMeter.
 │   ├── Locust
-│       ├── Stores files for stress testing using Locust.
+│       ├── This directory stores files for stress testing using Locust.
 ├── IoTECS
 │   ├── This is the core directory for the IoTECS simulator.
 ├── figs
